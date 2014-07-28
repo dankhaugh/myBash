@@ -5,6 +5,8 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
+export EDITOR=vim
+
 # User specific aliases and functions
 
 alias ..='cd ..'
@@ -19,6 +21,7 @@ alias gcsl='clear && gcc -shared -fPIC'
 alias gd='clear && gdb'
 alias gda='clear && gdb ./a.out'
 alias j='/home/ec2-user/julia-binary/usr/bin/julia-readline'
+alias jc='gcc -fPIC -shared'
 alias julia='/home/ec2-user/julia-binary/usr/bin/julia-readline'
 alias l='ls'
 alias py='python3'
