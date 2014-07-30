@@ -1,5 +1,5 @@
 # .bashrc
-
+export HISTSIZE="4000"
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
@@ -14,6 +14,7 @@ alias cb='vim ~/.bashrc'
 alias ch='chmod 700'
 alias cv='vim ~/.vimrc'
 alias chromium='chromium-browser'
+alias chrome='/opt/google/chrome/chrome'
 alias decrypt='gpg'
 alias encrypt='gpg -c'
 alias g='git'
@@ -23,11 +24,12 @@ alias gd='clear && gdb'
 alias gda='clear && gdb ./a.out'
 alias j='/home/ec2-user/julia-binary/usr/bin/julia-readline'
 alias julia='/home/ec2-user/julia-binary/usr/bin/julia-readline'
-alias l='ls'
-alias la='ls -a'
-alias py='python3'
+alias la='ls --color=auto -a'
+alias l='ls --color=auto'
+alias lsa='ls -la --color=auto'
+alias python='/usr/bin/python3'
+alias py='/usr/bin/python3'
+alias python2='/usr/bin/python'
 alias v='vim'
 alias ls='ls --color=auto'
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
+alias tor='~/tor/startTor'
