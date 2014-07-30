@@ -28,3 +28,6 @@ alias la='ls -a'
 alias py='python3'
 alias v='vim'
 alias ls='ls --color=auto'
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
