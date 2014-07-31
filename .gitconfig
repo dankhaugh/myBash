@@ -1,5 +1,6 @@
 [alias]
 	st = status
+	sta = status -uno
 	co = checkout
 	br = branch
 	cm = commit
