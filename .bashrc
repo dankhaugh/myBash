@@ -9,6 +9,7 @@ fi
 
 alias ..='cd ..'
 alias a='./a.out'
+alias ag='sudo apt-get'
 alias c='clear'
 alias cb='vim ~/.bashrc'
 alias ch='chmod 700'
