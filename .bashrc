@@ -6,6 +6,7 @@ if [ -f /etc/bashrc ]; then
 fi
 
 export EDITOR=vim
+export LD_LIBRARY_PATH="/home/ec2-user/tiptop:/usr/lib"
 
 # User specific aliases and functions
 
