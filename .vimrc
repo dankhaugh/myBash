@@ -1,4 +1,4 @@
-ab #! #!/usr/bin
+ab py3 #!/usr/bin/python3
 
 
 au BufEnter *.arr set expandtab
@@ -13,6 +13,12 @@ au BufEnter *.txt set shiftwidth=4
 au BufEnter *.txt set softtabstop=4
 
 "colorscheme evening
+
+
+"pydiction configurations
+filetype plugin on
+let g:pydiction_location='/home/dan/.vim/bundle/pydiction/complete-dict'
+"let g: pydiction_menu_height=8
 
 let java_comment_strings=1
 let java_highlight_all=1

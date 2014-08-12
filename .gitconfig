@@ -14,4 +14,7 @@
 	date = local
 [user]
 	name = Dan Haugh
-	email = daniel.haugh@conning.com
+	email = daniel_haugh@brown.edu
+[color]
+	ui = true
+

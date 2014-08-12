@@ -54,10 +54,13 @@ PS1="\[`tput rev`\]\h\[`tput sgr0`\] \w \$ ";
 
 # .bashrc
 export HISTSIZE="4000"
+export PATH=$PATH:/.local/bin
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
+
+export PATH=/home/dan/.local/bin:$PATH
 
 # User specific aliases and functions
 
@@ -92,3 +95,5 @@ alias v='vim'
 alias ls='ls --color=auto'
 alias t='touch'
 alias tor='~/tor/startTor'
+alias wh='which'
+
