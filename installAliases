@@ -1,0 +1,34 @@
+#!/bin/bash
+
+echo "alias ..='cd ..'" >> .bashrc
+echo "alias a='./a.out'" >> .bashrc
+echo "alias ag='sudo apt-get'" >> .bashrc
+echo "alias c='clear'" >> .bashrc
+echo "alias cb='vim ~/.bashrc'" >> .bashrc
+echo "alias ch='chmod 700'" >> .bashrc
+echo "alias cv='vim ~/.vimrc'" >> .bashrc
+echo "alias chromium='chromium-browser'" >> .bashrc
+echo "alias chrome='/opt/google/chrome/chrome'" >> .bashrc
+echo "alias decrypt='gpg'" >> .bashrc
+echo "alias encrypt='gpg -c'" >> .bashrc
+echo "alias g='git'" >> .bashrc
+echo "alias gc='clear && gcc -g'" >> .bashrc
+echo "alias gcsl='clear && gcc -shared -fPIC'" >> .bashrc
+echo "alias gd='clear && gdb'" >> .bashrc
+echo "alias gda='clear && gdb ./a.out'" >> .bashrc
+echo "alias j='/home/ec2-user/julia-binary/usr/bin/julia-readline'" >> .bashrc
+echo "alias julia='/home/ec2-user/julia-binary/usr/bin/julia-readline'" >> .bashrc
+echo "alias la='ls --color=auto -a'" >> .bashrc
+echo "alias l='ls --color=auto'" >> .bashrc
+echo "alias lsa='ls -la --color=auto'" >> .bashrc
+echo "alias mk='mkdir'" >> .bashrc
+echo "alias pip='cd ~/.local/bin && echo "choose the correct pip for py version"'" >> .bashrc
+echo "alias python='/usr/bin/python3'" >> .bashrc
+echo "alias py='/usr/bin/python3'" >> .bashrc
+echo "alias python2='/usr/bin/python'" >> .bashrc
+echo "alias py2='/usr/bin/python'" >> .bashrc
+echo "alias v='vim'" >> .bashrc
+echo "alias ls='ls --color=auto'" >> .bashrc
+echo "alias t='touch'" >> .bashrc
+echo "alias tor='~/tor/startTor'" >> .bashrc
+echo "alias wh='which'" >> .bashrc
