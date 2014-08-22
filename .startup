@@ -12,6 +12,7 @@ sudo apt-get install vlc -y
 sudo apt-get install redshift -y
 sudo apt-get install python3 -y
 sudo apt-get install htop -y
+sudo apt-get install sqlite3 -y
 
 cd 
 git clone https://github.com/littledannyha/mybash.git

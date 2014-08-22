@@ -47,6 +47,7 @@ set autoindent
 set cinoptions+=j1
 set copyindent
 set hlsearch
+set incsearch
 set mouse=a
 set nobackup
 set noexpandtab
@@ -57,6 +58,7 @@ set shiftwidth=4
 set si
 set smartcase
 set smartindent
+set smarttab
 set tabstop=4
 set virtualedit=onemore
 syntax on
