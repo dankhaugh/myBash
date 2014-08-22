@@ -105,7 +105,6 @@ fi
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
-
 alias ..='cd ..'
 alias a='./a.out'
 alias ag='sudo apt-get'

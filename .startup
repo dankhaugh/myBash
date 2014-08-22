@@ -15,7 +15,7 @@ sudo apt-get install redshift -y
 cd 
 git clone https://github.com/littledannyha/mybash.git
 cp mybash/.gitconfig mybash/.vimrc .
-cp mybash/installAliases .
+cp mybash/.installAliases .
 ./.installAliases
 rm .installAliases
 
