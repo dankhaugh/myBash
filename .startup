@@ -1,6 +1,6 @@
 #!/bin/bash
-sudo apt-get update && sudo apt-get upgrade
-sudo apt-get dist-upgrade
+sudo apt-get update && sudo apt-get upgrade -y
+sudo apt-get dist-upgrade -y
 
 sudo apt-add-repository ppa:versable/elementary-update
 sudo apt-get install elementary-tweaks -y
@@ -32,6 +32,8 @@ rm get-pip.py
 sudo pip install virtualenv
 
 
+sudo apt-get update && sudo apt-get upgrade -y
+sudo apt-get dist-upgrade -y
 
 
 echo 'alter bashrc aliases'
