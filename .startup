@@ -10,7 +10,8 @@ sudo apt-get install gnome-terminal -y
 sudo apt-get install vim -y
 sudo apt-get install vlc -y
 sudo apt-get install redshift -y
-
+sudo apt-get install python3 -y
+sudo apt-get install htop -y
 
 cd 
 git clone https://github.com/littledannyha/mybash.git
