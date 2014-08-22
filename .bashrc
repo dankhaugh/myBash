@@ -136,3 +136,5 @@ alias ls='ls --color=auto'
 alias t='touch'
 alias tor='~/tor/startTor'
 alias wh='which'
+alias update='cd;g add .bashrc .vimrc .startup .gitconfig; g cm -m "update"; g push;'
+
