@@ -13,6 +13,7 @@ sudo apt-get install redshift -y
 sudo apt-get install python3 -y
 sudo apt-get install htop -y
 sudo apt-get install sqlite3 -y
+sudo apt-get install rkhunter -y
 
 cd 
 git clone https://github.com/littledannyha/mybash.git
