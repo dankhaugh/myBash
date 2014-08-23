@@ -17,6 +17,7 @@ au BufEnter *.arr set syntax=pyret
 au BufEnter *.py set expandtab
 au BufEnter *.py set shiftwidth=4
 au BufEnter *.py set softtabstop=4
+au BufEnter *.py ab imp import 
 
 au BufEnter *.txt set expandtab
 au BufEnter *.txt set shiftwidth=4
