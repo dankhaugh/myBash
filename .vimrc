@@ -23,7 +23,8 @@ au BufEnter *.txt set expandtab
 au BufEnter *.txt set shiftwidth=4
 au BufEnter *.txt set softtabstop=4
 
-"colorscheme evening
+"colorscheme solarized
+colorscheme darkblue
 
 
 "pydiction configurations
