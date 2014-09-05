@@ -1,8 +1,10 @@
 #!/bin/bash
+sudo apt-add-repository ppa:versable/elementary-update
+sudo add-apt-repository ppa:webupd8team/java
+
 sudo apt-get update && sudo apt-get upgrade -y
 sudo apt-get dist-upgrade -y
 
-sudo apt-add-repository ppa:versable/elementary-update
 sudo apt-get install elementary-tweaks -y
 sudo apt-get install ubuntu-restricted-extras -y
 sudo apt-get install git -y
@@ -16,6 +18,9 @@ sudo apt-get install sqlite3 -y
 sudo apt-get install rkhunter -y
 sudo apt-get install libreoffice-common -y
 sudo apt-get install putty -y
+sudo apt-get install firefox -y
+sudo apt-get install oracle-java7-installer
+
 
 cd 
 git clone https://github.com/littledannyha/mybash.git
