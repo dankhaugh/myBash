@@ -5,6 +5,7 @@ sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update && sudo apt-get upgrade -y
 sudo apt-get dist-upgrade -y
 
+sudo apt-get install arduino -y
 sudo apt-get install elementary-tweaks -y
 sudo apt-get install ubuntu-restricted-extras -y
 sudo apt-get install git -y
@@ -19,7 +20,7 @@ sudo apt-get install rkhunter -y
 sudo apt-get install libreoffice-common -y
 sudo apt-get install putty -y
 sudo apt-get install firefox -y
-sudo apt-get install oracle-java7-installer
+sudo apt-get install oracle-java7-installer -y
 
 
 cd 
