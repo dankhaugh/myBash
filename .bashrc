@@ -108,6 +108,7 @@ fi
 alias ..='cd ..'
 alias a='./a.out'
 alias ag='sudo apt-get'
+alias arduino='sudo ~/arduino-1.0.5/arduino'
 alias c='clear'
 alias cb='vim ~/.bashrc'
 alias ch='chmod 700'

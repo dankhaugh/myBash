@@ -18,9 +18,13 @@ sudo apt-get install htop -y
 sudo apt-get install sqlite3 -y
 sudo apt-get install rkhunter -y
 sudo apt-get install libreoffice-common -y
+sudo apt-get install nmap -y
 sudo apt-get install putty -y
 sudo apt-get install firefox -y
 sudo apt-get install oracle-java7-installer -y
+sudo apt-get install python-numpy -y
+sudo apt-get install python3-numpy -y
+
 
 
 cd 
