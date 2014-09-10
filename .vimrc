@@ -24,7 +24,7 @@ au BufEnter *.txt set shiftwidth=4
 au BufEnter *.txt set softtabstop=4
 
 "colorscheme solarized
-colorscheme darkblue
+"colorscheme darkblue
 
 
 "pydiction configurations

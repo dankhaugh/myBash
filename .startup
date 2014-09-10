@@ -24,6 +24,7 @@ sudo apt-get install firefox -y
 sudo apt-get install oracle-java7-installer -y
 sudo apt-get install python-numpy -y
 sudo apt-get install python3-numpy -y
+sudo apt-get install sbcl -y
 
 
 
