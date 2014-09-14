@@ -25,6 +25,8 @@ sudo apt-get install oracle-java7-installer -y
 sudo apt-get install python-numpy -y
 sudo apt-get install python3-numpy -y
 sudo apt-get install sbcl -y
+sudo apt-get install mit-scheme -y
+sudo apt-get install chromium-browser -y
 
 
 
