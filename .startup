@@ -6,6 +6,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 sudo apt-get dist-upgrade -y
 
 sudo apt-get install arduino -y
+sudo apt-get install aptitude -y
 sudo apt-get install elementary-tweaks -y
 sudo apt-get install ubuntu-restricted-extras -y
 sudo apt-get install git -y
@@ -27,7 +28,7 @@ sudo apt-get install python3-numpy -y
 sudo apt-get install sbcl -y
 sudo apt-get install mit-scheme -y
 sudo apt-get install chromium-browser -y
-
+sudo apt-get install python-logilab-common -y
 
 
 cd 
