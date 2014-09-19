@@ -60,3 +60,4 @@ echo "now go install:"
 echo "\ttorrent managen"
 echo "\teclipse"
 
+sudo apt-get install xclip
