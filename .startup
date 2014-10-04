@@ -7,6 +7,7 @@ sudo apt-get dist-upgrade -y
 
 sudo apt-get install arduino -y
 sudo apt-get install aptitude -y
+sudo apt-get install curl -y
 sudo apt-get install elementary-tweaks -y
 sudo apt-get install ubuntu-restricted-extras -y
 sudo apt-get install git -y

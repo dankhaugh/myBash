@@ -3,6 +3,7 @@ ab py3 #!/usr/bin/python3
 au BufEnter *.c set cindent
 au BufEnter *.c ab #i #include
 au BufEnter *.c ab stdio #include <stdio.h>
+au BufEnter *.c ab stdlib #include <stdlib.h>
 au BufEnter *.c ab main int main(int argc, char* argv[]){
 au BufEnter *.c ab for for(i=0; i<n; i++){
 au BufEnter *.c ab ll long long
