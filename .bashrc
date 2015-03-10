@@ -145,6 +145,6 @@ alias t='touch'
 alias tor='~/tor/startTor'
 alias wh='which'
 # alias update='cd;g add .bashrc .vimrc .startup .gitconfig; g cm -m "update"; g push;'
-alias update='cd;mkdir /tmp/myBashUpdating; cd /tmp/myBashUpdating; git init;  git remote add origin https://github.com/littledannyha/mybash; git pull orgin master;  cd; cp .startup.sh .bashrc .vimrc .gitconfig /tmp/myBashUpdating; cd /tmp/myBashUpdating; g add *; git cm -m "update"; git push origin master;'
 # cd; rm -rf /tmp/myBashUpdating;'
-
+alias update='cd;mkdir /tmp/gitUpdating; cd /tmp/gitUpdating; git init;  git remote add origin https://github.com/littledannyha/mybash; git pull orgin master;  cd; cp .startup.sh .bashrc .vimrc .gitconfig /tmp/gitUpdating; cd /tmp/gitUpdating; g add *; git cm -m "update"; git push origin master; cd;'
+# rm -rf /tmp/gitUpdating;'
