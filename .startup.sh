@@ -68,3 +68,5 @@ echo "\teclipse"
 
 sudo apt-get install xclip
 sudo apt-get install python-tk -y
+sudo apt-get install okular
+ -y 
