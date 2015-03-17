@@ -1,4 +1,5 @@
 ab py3 #!/usr/bin/python3
+ab bash #!/bin/bash
 
 au BufEnter *.c set cindent
 au BufEnter *.c ab #i #include
@@ -8,6 +9,10 @@ au BufEnter *.c ab main int main(int argc, char* argv[]){
 au BufEnter *.c ab for for(i=0; i<n; i++){
 au BufEnter *.c ab ll long long
 
+
+au BufEnter *.cl let @c='I; j'
+au BufEnter *.cl let @u='0xxj'
+au BufEnter *.cl let @2='i( )hi'
 
 
 au BufEnter *.arr set expandtab
@@ -52,9 +57,9 @@ set copyindent
 set hlsearch
 set incsearch
 set mouse=a
-set nobackup
+"set nobackup
 set noexpandtab
-set noswapfile
+"set noswapfile
 set nu
 set number
 set shiftwidth=4
