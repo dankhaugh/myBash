@@ -1,6 +1,8 @@
 ab py3 #!/usr/bin/python3
 ab bash #!/bin/bash
 
+au BufEnter *.asm ab m mov
+
 au BufEnter *.c set cindent
 au BufEnter *.c ab #i #include
 au BufEnter *.c ab stdio #include <stdio.h>
