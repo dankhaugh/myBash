@@ -141,3 +141,9 @@ alias tor='~/tor/startTor'
 alias wh='which'
 
 
+#tmux aliases
+alias up='tmux resize-pane -U' 
+alias down='tmux resize-pane -D' 
+alias left='tmux resize-pane -L' 
+alias right='tmux resize-pane -R' 
+
