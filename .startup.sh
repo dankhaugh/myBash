@@ -20,6 +20,7 @@ sudo apt-get install htop -y
 sudo apt-get install sqlite3 -y
 sudo apt-get install rkhunter -y
 sudo apt-get install libreoffice-common -y
+sudo apt-get install nautilus -y
 sudo apt-get install nmap -y
 sudo apt-get install putty -y
 sudo apt-get install firefox -y
@@ -56,6 +57,9 @@ sudo pip install virtualenv
 sudo apt-get update && sudo apt-get upgrade -y
 sudo apt-get dist-upgrade -y
 
+sudo add-apt-repository ppa:mpstark/elementary-tweaks-daily
+sudo apt-get update
+sudo apt-get install elementary-tweaks
 
 echo 'alter bashrc aliases'
 echo "now go install:"
@@ -64,3 +68,5 @@ echo "\teclipse"
 
 sudo apt-get install xclip
 sudo apt-get install python-tk -y
+sudo apt-get install okular
+ -y 
