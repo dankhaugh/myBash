@@ -3,6 +3,15 @@
 # Copy tmux configuration
 cp .tmux.conf ~/
 
+# Copy gitconfig if it doesn't exist
+if [ ! -f ~/.gitconfig ]; then
+    echo "Copying .gitconfig to home directory..."
+    cp .gitconfig ~/
+    echo ".gitconfig copied successfully"
+else
+    echo ".gitconfig already exists in home directory, skipping..."
+fi
+
 # Detect shell and set RC file
 if [[ "$SHELL" == *"zsh"* ]]; then
     RC_FILE="$HOME/.zshrc"
