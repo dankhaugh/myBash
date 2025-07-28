@@ -84,3 +84,4 @@ claude mcp add serena -- uvx --from git+https://github.com/oraios/serena serena-
 # install github and setup
 sagi gh
 gh auth login 
+gh auth setup-git
