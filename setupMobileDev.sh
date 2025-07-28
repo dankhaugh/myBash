@@ -85,3 +85,7 @@ claude mcp add serena -- uvx --from git+https://github.com/oraios/serena serena-
 sagi gh
 gh auth login 
 gh auth setup-git
+
+# allow merging
+git config --global core.editor "vim"
+git config pull.rebase false
