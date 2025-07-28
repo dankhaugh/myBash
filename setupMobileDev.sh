@@ -12,6 +12,15 @@ else
     echo ".gitconfig already exists in home directory, skipping..."
 fi
 
+# Copy vimrc if it doesn't exist
+if [ ! -f ~/.vimrc ]; then
+    echo "Copying .vimrc to home directory..."
+    cp .vimrc ~/
+    echo ".vimrc copied successfully"
+else
+    echo ".vimrc already exists in home directory, skipping..."
+fi
+
 # Detect shell and set RC file
 if [[ "$SHELL" == *"zsh"* ]]; then
     RC_FILE="$HOME/.zshrc"
