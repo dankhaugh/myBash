@@ -54,6 +54,8 @@ sudo apt-get update
 # Install core packages
 sudo apt-get install -y nodejs npm python3 python3-pip docker.io postgresql postgresql-contrib
 
+npm install -g pnpm
+
 # Install development tools
 sudo apt-get install -y git curl wget build-essential tmux vim htop tree jq
 
