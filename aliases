@@ -1,3 +1,4 @@
+# This file should be linked in your zshrc
 alias ..='cd ..'
 alias ...='cd .. && cd ..'
 alias cb='vim ~/.zshrc'
