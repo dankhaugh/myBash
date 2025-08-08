@@ -33,21 +33,6 @@ else
     echo "Unknown shell, defaulting to ~/.bashrc"
 fi
 
-# Add aliases idempotently using marker comments
-MARKER_START="# === MYBASH ALIASES START ==="
-MARKER_END="# === MYBASH ALIASES END ==="
-
-if grep -q "$MARKER_START" "$RC_FILE" 2>/dev/null; then
-    echo "Aliases already installed in $RC_FILE, skipping..."
-else
-    echo "Adding aliases to $RC_FILE..."
-    echo "" >> "$RC_FILE"
-    echo "$MARKER_START" >> "$RC_FILE"
-    cat aliases >> "$RC_FILE"
-    echo "$MARKER_END" >> "$RC_FILE"
-    echo "Aliases successfully added to $RC_FILE"
-fi
-
 # Update package lists
 sudo apt-get update
 
