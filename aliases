@@ -1,8 +1,9 @@
 alias ..='cd ..'
 alias ...='cd .. && cd ..'
-alias cb='vim ~/.bashrc'
+alias cb='vim ~/.zshrc'
+alias ccusage='ccusage blocks --live'
 alias ch='chmod 700'
-alias clip='xclip -selection c.'
+alias clip='pbcopy'
 alias cv='vim ~/.vimrc'
 alias d='cd'
 alias decrypt='gpg'
@@ -11,12 +12,16 @@ alias f='fg'
 alias g='git'
 alias ga='git add'
 alias gd='git diff'
-alias la='ls --color=auto -a'
-alias l='ls --color=auto'
+alias grr='grep -r'
+alias gr='grep'
+alias la='ls --color -a'
+alias l='ls --color'
+alias ls='ls --color'
 alias lsa='ls -la --color=auto'
 alias mk='mkdir'
 alias psa='ps aux | grep '
 alias py='python3'
+alias rld='source ~/.zshrc'
 alias sagi='sudo apt-get install'
 alias v='vim'
 alias ls='ls --color=auto'
@@ -29,3 +34,12 @@ alias up='tmux resize-pane -U'
 alias down='tmux resize-pane -D' 
 alias left='tmux resize-pane -L' 
 alias right='tmux resize-pane -R' 
+
+export ALIAS_FILE=$(pwd)/aliases
+
+dn() {
+    while true; do
+        say "done"
+        sleep 1  # Wait 1 second between repetitions (optional)
+    done
+}
